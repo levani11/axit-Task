@@ -1,0 +1,14 @@
+@mixin flex ($property,$horizontal,$vertical,){
+  display: $property;
+  justify-content: $horizontal;
+  align-items: $vertical;
+}
+
+
+@mixin csstransition($sec, $transition){
+    -webkit-transition: all $sec $transition;
+    -moz-transition: all $sec $transition;
+    -o-transition: all $sec $transition;
+    -ms-transition: all $sec $transition;
+    transition: all $sec $transition;
+  }

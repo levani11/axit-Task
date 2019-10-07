@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Axit Task</title>
+    <link rel="shortcut icon" type="image/png" href="./Resource/icons/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <header id="header" class="header">
+            <div class="container">
+                <div class="header-blok-left">
+                    <div class="logo">
+                        <a href="#main">
+                            <img src="./resource/images/Logo.png" alt="axit-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="header-block-right">
+                    <nav class="header__block__nav">
+                        <ul>
+                            <li>
+                                <a href="#features">Features</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#pricing">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#reviews">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="burger-menu" id="burger-menu" style="cursor: pointer;" onclick="openNav()">&#9776;>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="navbar-slider" id="navbar-slider">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" class="navbar-slider__a closebtn" onclick="closeNav()">&times;</a>
+                        </li>
+                        <li>
+                            <a href="#features" class="navbar-slider__a">Features</a>
+                        </li>
+                        <li>
+                            <a href="#features" class="navbar-slider__a">About</a>
+                        </li>
+                        <li>
+                            <a href="#features" class="navbar-slider__a">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#features" class="navbar-slider__a">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#features" class="navbar-slider__a">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <section id="main">
+                <div class="background">
+                    <div class="container">
+                        <div class="wrapper">
+                            <div class="main-block-left">
+                                <div class="content__logo">
+                                    <img src="./resource/images/Logo.png" alt="axit-logo">
+                                    <h3>
+                                        MODERN AXURE TEMPLATE
+                                        FOR BEAUTIFUL PROTOTYPES
+                                    </h3>
+                                </div>
+                                <div class="short__heading__divider"></div>
+                                <div class="content__text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                                        accumsan et viverra justo commodo.
+                                    </p>
+                                    <button>
+                                        <a href="#">DOWNLOAD</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form">
+                                <div class="main-block-right">
+                                    <p class="block__right__subject">Try Your <a href="#">FREE</a> Trial Today</p>
+                                    <form>
+                                        <p class="input">
+                                            <input type="text" placeholder="Name">
+                                        </p>
+                                        <p class="input">
+                                            <input type="text" placeholder="Email">
+                                        </p>
+                                        <p class="input">
+                                            <input type="password" placeholder="Password">
+                                        </p>
+                                    </form>
+                                    <a href="">
+                                        <button type="submit">Get Started</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="socia-icons-block">
+                    <div class="container">
+                        <div class="icons__block__left">
+                            <h5>Social Media</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Aenean euismod bibendum laoreet.
+                            </p>
+                        </div>
+                        <div class="icons__block__right">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-pinterest icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in icon"></i>                            
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-rss icon"></i>                         
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="features">
+                <div class="main-content">
+                    <div class="container">
+                        <div class="wrapper">
+                            <div class="features-block-left">
+                                <div class="column">
+                                    <a href="">
+                                        <div class="tab active">
+                                            <span>TAB 1</span>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="tab">
+                                            <span>TAB 2</span>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div class="tab">
+                                            <span>TAB 3</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="block__left__text">
+                                    <h3>Tabs with soft transitioning effect.</h3>
+                                    <p style="padding-top: 55px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                        penatibus et magnis dis parturient montes.
+                                        <p style="margin: 20px 0 50px 0;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                            bibendum laoreet.
+                                        </p>
+                                    </p>
+                                    <button>Download</button>
+                                </div>
+                            </div>
+                            <div class="features-block-right">
+                                <img src="./resource/images/city.png" alt="city">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-list-section">
+                    <div class="container">
+                        <div class="wrapper">
+                            <div class="sub-list-block-left">
+                                <img src="./resource/images/sub-city.png" alt="sub-city">
+                            </div>
+                            <div class="sub-list-block-right">
+                                <div class="block__rigth__text">
+                                    <h3>Sub List Section</h3>
+                                    <div class="short__heading__divider__orange"></div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+                                        accumsan et viverra justo commodo.
+                                    </p>
+                                    <div class="block__rigth__text__desc">
+                                        <div class="inner">
+                                            <div class="download-icon">
+                                                <i class="fas fa-cloud-download-alt"></i>
+                                            </div>
+                                            <div class="title">
+                                                <h5>Title</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                    Aenean euismod bibendum laoreet.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="inner" style="padding-top: 40px;">
+                                            <div class="download-icon">
+                                                <i class="fas fa-cloud-download-alt"></i>
+                                            </div>
+                                            <div class="title">
+                                                <h5>Title</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                    Aenean euismod bibendum laoreet. Proin gravida dolor 
+                                                    sit amet lacus accumsan et viverra justo commodo.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="standard-pic-section">
+                    <div class="container">
+                        <div class="wrapper">
+                            <div class="standard-pic-block-left">
+                                <div class="block__left__text">
+                                    <h3>Standard Picture Section</h3>
+                                    <div class="short__heading__divider__orange"></div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
+                                        et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
+                                        natoque penatibus et magnis dis parturient montes.                                                                    
+                                    </p>
+                                    <p style="margin-top: 20px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                        bibendum laoreet.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="standard-pic-block-right">
+                                <img src="./resource/images/town.png" alt="town">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <div class="container">
+                    <div class="center-text-block">
+                        <div class="center-content">
+                            <h2>WHY THIS IS AWESOME</h2>
+                            <div class="divider">
+                                <div class="short__heading__divider__orange"></div>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="content-head">
+                                <div class="content__icon">
+                                    <img src="./resource/icons/light.png" alt="light">
+                                </div>
+                            </div>
+                            <div class="content-text">
+                                <h3>Thoughtful Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida 
+                                    dolor sit amet lacus accumsan et viverra.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content-head">
+                                <div class="content__icon">
+                                    <img src="./resource/icons/keyboard.png" alt="keyboard">
+                                </div>
+                            </div>
+                            <div class="content-text">
+                                <h3>Well Crafted</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida 
+                                    dolor sit amet lacus accumsan et viverra.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content-head">
+                                <div class="content__icon">
+                                    <img src="./resource/icons/energy.png" alt="energy">
+                                </div>
+                            </div>
+                            <div class="content-text">
+                                <h3>Easy To Costumize</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida 
+                                    dolor sit amet lacus accumsan et viverra.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing">
+                <div class="container">
+                    <div class="center-text-block">
+                        <div class="center-content">
+                            <h2>PRICING OPTIONS</h2>
+                            <div class="divider">
+                                <div class="short__heading__divider__orange"></div>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="content-head">
+                                <h5>Basic</h5>
+                                <div class="content__head__inner">
+                                    <span style="font-size: 40px">$</span>
+                                    <span style="font-size: 100px">0</span>
+                                    <p>Free For Life</p>
+                                </div>
+                            </div>
+                            <div class="content-head-footer"></div>
+                            <div class="content-middle">
+                                <ul>
+                                    <li>1 GB OF SPACE</li>
+                                    <li>10 GB OF BANDWIDTH</li>
+                                    <li>3 WEBSITES</li>
+                                    <li>BASIC CUSTOMIZATION</li>
+                                    <li>WORDPRESS INTEGRATION</li>
+                                    <li>EMAIL SUPPORT</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column" style="padding-top: unset;">
+                            <div class="content-head">
+                                <h5>Professional</h5>
+                                <div class="content__head__inner">
+                                        <span style="font-size: 40px">$</span>
+                                        <span class="counter" data-count="19" style="font-size: 100px">0</span>
+                                    <p>Monthly Payment</p>
+                                </div>
+                            </div>
+                            <div class="content-head-footer" style="padding: 10px 0;">
+                                <p>OUR MOST POPULAR</p>
+                            </div>
+                            <div class="content-middle">
+                                <ul>
+                                    <li>5 GB OF SPACE</li>
+                                    <li>50 GB OF BANDWIDTH</li>
+                                    <li>12 WEBSITES</li>
+                                    <li>ADVANCED CUSTOMIZATION</li>
+                                    <li>WORDPRESS INTEGRATION</li>
+                                    <li>EMAIL SUPPORT</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="content-head">
+                                <h5>Enterprise</h5>
+                                <div class="content__head__inner">
+                                        <span style="font-size: 40px">$</span>
+                                        <span class="counter" data-count="70" style="font-size: 100px">0</span>
+                                    <p>Monthly Paymen</p>
+                                </div>
+                            </div>
+                            <div class="content-head-footer"></div>
+                            <div class="content-middle">
+                                <ul>
+                                    <li>UNLIMITED SPACE</li>
+                                    <li>UNLIMITED BANDWIDTH</li>
+                                    <li>100 WEBSITES</li>
+                                    <li>ADVANCED CUSTOMIZATION</li>
+                                    <li>WORDPRESS INTEGRATION</li>
+                                    <li>24/7 CUSTOMER SUPPORT</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="reviews">
+                <div class="container">
+                    <div class="center-text-block">
+                        <div class="center-content">
+                            <h2>WHAT OUR COSTUMERS ARE SAYING</h2>
+                            <div class="divider">
+                                <div class="short__heading__divider__orange"></div>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="user-desc">
+                                <p>
+                                    Lorem ipsum dolor sit amet, 
+                                    consectetur adipisicing elit. Doloribus 
+                                    accusamus expedita repellat similique 
+                                    odio aspernatur ex, architecto eaque 
+                                    quo suscipit.
+                                </p>
+                            </div>
+                            <div class="user-info">
+                                <div class="user__photo" style="background-image: url(resource/images/developer.jpg)">
+                                </div>
+                                <div class="user__name">
+                                    <h2>Jeremy H.</h2>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="user-desc">
+                                <p>
+                                    Lorem ipsum dolor sit amet, 
+                                    consectetur adipisicing elit. Doloribus 
+                                    accusamus expedita repellat similique 
+                                    odio aspernatur ex, architecto eaque 
+                                    quo suscipit.
+                                </p>
+                            </div>
+                            <div class="user-info">
+                                <div class="user__photo" style="background-image: url(resource/images/john.jpg)">
+                                </div>
+                                <div class="user__name">
+                                    <h2>John S.</h2>
+                                    <p>Freelancer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="user-desc">
+                                <p>
+                                    Lorem ipsum dolor sit amet, 
+                                    consectetur adipisicing elit. Doloribus 
+                                    accusamus expedita repellat similique 
+                                    odio aspernatur ex, architecto eaque 
+                                    quo suscipit.
+                                </p>
+                            </div>
+                            <div class="user-info">
+                                <div class="user__photo" style="background-image: url(resource/images/susan.jpg)">
+                                </div>
+                                <div class="user__name">
+                                    <h2>Susan W.</h2>
+                                    <p>Photographer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="background">
+                    <div class="container">
+                        <div class="background-center-text-block">
+                            <div class="center-content">
+                                <h2>STYLISH AXURE DESIGN</h2>
+                                <div class="divider">
+                                    <div class="short__heading__divider"></div>
+                                </div>
+                                <p>
+                                    Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+                                </p>
+                                <button>
+                                    <a href="#">DOWNLOAD</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="container">
+                    <div class="center-text-block">
+                        <div class="center-content">
+                            <h2>CONTACT US</h2>
+                            <div class="divider">
+                                <div class="short__heading__divider__orange"></div>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-field">
+                            <div class="form-block-left">
+                                <p>
+                                    <input type="text" placeholder="Name">
+                                </p>
+                                <p>
+                                    <input type="email" placeholder="Email">
+                                </p>
+                                <p>
+                                    <input type="text" placeholder="Subject">
+                                </p>
+                            </div>
+                            <div class="form-block-right">
+                                <p>
+                                    <textarea name="message" placeholder="Message"></textarea>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button> Send Message</button>   
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="center-block">
+                    <div class="center__icon__block">
+                        <ul class="social-ul">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-pinterest icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in icon"></i>                            </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-rss icon"></i>                          </a>
+                            </li>
+                        </ul>
+                        <p>© 2019 Axure Themes</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</body>
+</html>
